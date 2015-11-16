@@ -5,10 +5,10 @@
 
 static inline void speck_round(uint64_t& x, uint64_t& y, uint64_t k)
 {
-  x = (x >> 8) | (x << (64 - 8)); // x = ROTR(x, 8)
+  x = (x >> 8) | (x << (8 * sizeof(x) - 8)); // x = ROTR(x, 8)
   x += y;
   x ^= k;
-  y = (y << 3) | (y >> (64 - 3)); // y = ROTL(y, 3)
+  y = (y << 3) | (y >> (8 * sizeof(x) - 3)); // y = ROTL(y, 3)
   y ^= x;
 }
 
