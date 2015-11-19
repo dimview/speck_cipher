@@ -1,4 +1,4 @@
-// Speck 32/64
+// Speck 32/64 using ring buffer
 
 #include <stdio.h>
 #include <inttypes.h>
@@ -7,10 +7,10 @@
 
 static inline void speck_round(uint16_t& x, uint16_t& y, const uint16_t k)
 {
-  x = (x >> 7) | (x << (8 * sizeof(x) - 7)); // x = ROTR(x, 7)
+  x = (x >> 7) | (x << (16 - 7)); // x = ROTR(x, 7)
   x += y;
   x ^= k;
-  y = (y << 2) | (y >> (8 * sizeof(y) - 2)); // y = ROTL(y, 2)
+  y = (y << 2) | (y >> (16 - 2)); // y = ROTL(y, 2)
   y ^= x;
 }
 
@@ -22,16 +22,13 @@ void speck_block( const uint16_t plaintext[2]
   ciphertext[0] = plaintext[0];
   ciphertext[1] = plaintext[1];
   uint16_t b  = key[0];
-  uint16_t a0 = key[1];
-  uint16_t a1 = key[2];
-  uint16_t a2 = key[3];
+  uint16_t a[3];
+  a[0] = key[1]; // ring buffer
+  a[1] = key[2];
+  a[2] = key[3];
   for (unsigned i = 0; i < ROUNDS; i++) {
     speck_round(ciphertext[1], ciphertext[0], b);
-    uint16_t a = a0;
-    speck_round(a, b, i);
-    a0 = a1;
-    a1 = a2;
-    a2 = a;
+    speck_round(a[i % 3], b, i);
   }
 }
 
