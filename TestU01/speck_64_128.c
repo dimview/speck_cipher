@@ -98,7 +98,7 @@ unif01_Gen *CreateSpeck64_128 (int s)
    gen->state = state = util_Malloc (sizeof (Speck64_128_state));
    state->counter[0] = s;
    state->counter[1] = 0;
-   uint32_t key[4] = {0x03020100UL, 0x0b0a0908UL, 0x13121110UL, 0x1b1a1918UL};
+   uint32_t key[4] = {0x03020100UL, 0x0b0a0908UL, 0x13121110UL, 0x1b1a1918UL}; // Can be random
    speck_setup(key, state->key_schedule);
 
    gen->param = NULL;

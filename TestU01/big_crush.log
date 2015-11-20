@@ -1225,4 +1225,2770 @@ Number of degrees of freedom          :   54
 Chi-square statistic                  :   68.80
 p-value of test                       :    0.08
 
---------------------------------
+-----------------------------------------------
+CPU time used                    :  00:03:22.13
+
+Generator state:
+ Self-check passed
+ Counter = 0x7c99e3cd 0x0000000f
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 200000000,  r = 10,   d =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   54
+Chi-square statistic                  :   35.34
+p-value of test                       :    0.98
+
+-----------------------------------------------
+CPU time used                    :  00:03:46.00
+
+Generator state:
+ Self-check passed
+ Counter = 0x7f90d731 0x00000010
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 200000000,  r = 20,   d =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   54
+Chi-square statistic                  :   51.65
+p-value of test                       :    0.57
+
+-----------------------------------------------
+CPU time used                    :  00:03:44.03
+
+Generator state:
+ Self-check passed
+ Counter = 0x828a0700 0x00000011
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 200000000,  r = 27,   d =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   54
+Chi-square statistic                  :   55.80
+p-value of test                       :    0.41
+
+-----------------------------------------------
+CPU time used                    :  00:03:43.37
+
+Generator state:
+ Self-check passed
+ Counter = 0x85828330 0x00000012
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  0,   Alpha =        0,   Beta  =   0.0625
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  232
+Chi-square statistic                  :  202.65
+p-value of test                       :    0.92
+
+-----------------------------------------------
+CPU time used                    :  00:05:13.26
+
+Generator state:
+ Self-check passed
+ Counter = 0x625b467f 0x00000014
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 300000000,  r = 25,   Alpha =        0,   Beta  =  0.03125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  434
+Chi-square statistic                  :  421.06
+p-value of test                       :    0.66
+
+-----------------------------------------------
+CPU time used                    :  00:06:52.78
+
+Generator state:
+ Self-check passed
+ Counter = 0x9e9fea02 0x00000016
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r =  0,   Alpha =        0,   Beta  = 0.0078125
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 1437
+Chi-square statistic                  : 1374.17
+p-value of test                       :    0.88
+
+-----------------------------------------------
+CPU time used                    :  00:08:08.47
+
+Generator state:
+ Self-check passed
+ Counter = 0x998f7a57 0x00000019
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 20,   Alpha =        0,   Beta  = 0.000976562
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 7046
+Chi-square statistic                  : 6983.81
+p-value of test                       :    0.70
+
+-----------------------------------------------
+CPU time used                    :  00:07:13.38
+
+Generator state:
+ Self-check passed
+ Counter = 0xfb94b226 0x0000001b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N =  5,  n = 1000000000,  r =  0,   Up = FALSE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.83
+
+Kolmogorov-Smirnov- statistic = D-    :    0.36
+p-value of test                       :    0.21
+
+Anderson-Darling statistic = A2       :    0.62
+p-value of test                       :    0.62
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   30
+Chi-square statistic                  :   34.42
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:03:46.72
+
+Generator state:
+ Self-check passed
+ Counter = 0x259aa426 0x0000001d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 1000000000,  r = 15,   Up =  TRUE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.16
+p-value of test                       :    0.54
+
+Kolmogorov-Smirnov- statistic = D-    :    0.16
+p-value of test                       :    0.53
+
+Anderson-Darling statistic = A2       :    0.57
+p-value of test                       :    0.67
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   69.68
+p-value of test                       :    0.18
+
+-----------------------------------------------
+CPU time used                    :  00:08:17.11
+
+Generator state:
+ Self-check passed
+ Counter = 0x79a68826 0x0000001f
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r =  5,   t =  3,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =                  6
+       Expected number per cell =  1.6666667e+08
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  2.5000002e-09,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          :    5
+Value of the statistic                :    1.84
+p-value of test                       :    0.87
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:23.81
+
+Generator state:
+ Self-check passed
+ Counter = 0x2c76e626 0x00000020
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r =  5,   t =  5,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =                120
+       Expected number per cell =   8333333.3
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  5.9500005e-08,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          :  119
+Value of the statistic                :  129.08
+p-value of test                       :    0.25
+
+
+-----------------------------------------------
+CPU time used                    :  00:04:09.34
+
+Generator state:
+ Self-check passed
+ Counter = 0x567cd826 0x00000021
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  5,   t =  7,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =               5040
+       Expected number per cell =   99206.349
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  5.0390004e-06,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 5039
+Value of the statistic                : 5127.74
+p-value of test                       :    0.19
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:59.36
+
+Generator state:
+ Self-check passed
+ Counter = 0x271a9b26 0x00000022
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r = 10,   t = 10,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =            3628800
+       Expected number per cell =    137.7866
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =   0.0036287993,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 3628799
+Value of the statistic                : 3.63e+6
+p-value of test                       :    0.85
+
+
+-----------------------------------------------
+CPU time used                    :  00:05:07.62
+
+Generator state:
+ Self-check passed
+ Counter = 0x51208d26 0x00000023
+
+
+
+
+***********************************************************
+Test sknuth_CollisionPermut calling smultin_Multinomial
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r =  0,   t = 14,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =        87178291200
+       Expected number per cell =  1 /  4358.9146
+       EColl = n^2 / (2k) =   2294.14912
+       Hashing =   TRUE
+
+       Collision test,    Mu =      2293.9736,    Sigma =    47.8841
+
+-----------------------------------------------
+Test Results for Collisions
+
+For the total number of collisions, we use
+      the Poisson approximation:
+Expected number of collisions = N*Mu  :    45879.47
+Observed number of collisions         :    45930
+p-value of test                       :    0.41
+
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    1743165869930
+  j =  1                              :        399908145
+  j =  2                              :            45920
+  j =  3                              :                5
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:06:40.57
+
+Generator state:
+ Self-check passed
+ Counter = 0x9ee9c526 0x00000024
+
+
+
+
+***********************************************************
+Test sknuth_CollisionPermut calling smultin_Multinomial
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r = 10,   t = 14,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =        87178291200
+       Expected number per cell =  1 /  4358.9146
+       EColl = n^2 / (2k) =   2294.14912
+       Hashing =   TRUE
+
+       Collision test,    Mu =      2293.9736,    Sigma =    47.8841
+
+-----------------------------------------------
+Test Results for Collisions
+
+For the total number of collisions, we use
+      the Poisson approximation:
+Expected number of collisions = N*Mu  :    45879.47
+Observed number of collisions         :    45940
+p-value of test                       :    0.39
+
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    1743165869940
+  j =  1                              :        399908123
+  j =  2                              :            45934
+  j =  3                              :                3
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:07:00.82
+
+Generator state:
+ Self-check passed
+ Counter = 0xecb2fd26 0x00000025
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N = 40,  n = 10000000,  r =  0,   d = 100000,   t =  8
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.015
+p-value of test                       :    0.97
+
+Kolmogorov-Smirnov- statistic = D-    :    0.14
+p-value of test                       :    0.17
+
+Anderson-Darling statistic = A2       :    1.31
+p-value of test                       :    0.23
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 3999960
+Chi-square statistic                  : 4.00e+6
+p-value of test                       :    0.06
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.042
+p-value of test                       :    0.84
+
+Kolmogorov-Smirnov- statistic = D-    :    0.18
+p-value of test                       :    0.07
+
+Anderson-Darling statistic = A2       :    1.64
+p-value of test                       :    0.15
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:28.62
+
+Generator state:
+ Self-check passed
+ Counter = 0xab6f1d26 0x00000026
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N = 30,  n = 10000000,  r =  0,   d = 100000,   t = 16
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.016
+p-value of test                       :    0.98
+
+Kolmogorov-Smirnov- statistic = D-    :    0.16
+p-value of test                       :    0.20
+
+Anderson-Darling statistic = A2       :    1.16
+p-value of test                       :    0.28
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 2999970
+Chi-square statistic                  : 3.00e+6
+p-value of test                       :    0.08
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.48
+
+Kolmogorov-Smirnov- statistic = D-    :   0.059
+p-value of test                       :    0.78
+
+Anderson-Darling statistic = A2       :    0.22
+p-value of test                       :    0.98
+
+
+-----------------------------------------------
+CPU time used                    :  00:04:02.62
+
+Generator state:
+ Self-check passed
+ Counter = 0xc9894d26 0x00000027
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N = 20,  n = 10000000,  r =  0,   d = 100000,   t = 24
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.061
+p-value of test                       :    0.83
+
+Kolmogorov-Smirnov- statistic = D-    :    0.21
+p-value of test                       :    0.15
+
+Anderson-Darling statistic = A2       :    0.75
+p-value of test                       :    0.52
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 1999980
+Chi-square statistic                  : 2.00e+6
+p-value of test                       :    0.17
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.17
+p-value of test                       :    0.28
+
+Kolmogorov-Smirnov- statistic = D-    :   0.050
+p-value of test                       :    0.87
+
+Anderson-Darling statistic = A2       :    0.63
+p-value of test                       :    0.62
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:38.56
+
+Generator state:
+ Self-check passed
+ Counter = 0xe7a37d26 0x00000028
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N = 20,  n = 10000000,  r =  0,   d = 100000,   t = 32
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.060
+p-value of test                       :    0.83
+
+Kolmogorov-Smirnov- statistic = D-    :    0.11
+p-value of test                       :    0.58
+
+Anderson-Darling statistic = A2       :    0.20
+p-value of test                       :    0.99
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 1999980
+Chi-square statistic                  : 2.00e+6
+p-value of test                       :    0.49
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.21
+p-value of test                       :    0.16
+
+Kolmogorov-Smirnov- statistic = D-    :    0.12
+p-value of test                       :    0.51
+
+Anderson-Darling statistic = A2       :    1.23
+p-value of test                       :    0.26
+
+
+-----------------------------------------------
+CPU time used                    :  00:04:40.09
+
+Generator state:
+ Self-check passed
+ Counter = 0x651bbd26 0x0000002a
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_SampleProd test:
+-----------------------------------------------
+   N = 40,  n = 10000000,  r =  0,   t = 8
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.076
+p-value of test                       :    0.60
+
+Kolmogorov-Smirnov- statistic = D-    :    0.11
+p-value of test                       :    0.37
+
+Anderson-Darling statistic = A2       :    0.62
+p-value of test                       :    0.63
+
+-----------------------------------------------
+CPU time used                    :  00:03:11.15
+
+Generator state:
+ Self-check passed
+ Counter = 0x23d7dd26 0x0000002b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_SampleProd test:
+-----------------------------------------------
+   N = 20,  n = 10000000,  r =  0,   t = 16
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.061
+p-value of test                       :    0.83
+
+Kolmogorov-Smirnov- statistic = D-    :    0.17
+p-value of test                       :    0.29
+
+Anderson-Darling statistic = A2       :    0.59
+p-value of test                       :    0.66
+
+-----------------------------------------------
+CPU time used                    :  00:02:41.22
+
+Generator state:
+ Self-check passed
+ Counter = 0xe293fd26 0x0000002b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_SampleProd test:
+-----------------------------------------------
+   N = 20,  n = 10000000,  r =  0,   t = 24
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.32
+p-value of test                       :    0.01
+
+Kolmogorov-Smirnov- statistic = D-    :   0.024
+p-value of test                       :    0.96
+
+Anderson-Darling statistic = A2       :    3.32
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:03:48.86
+
+Generator state:
+ Self-check passed
+ Counter = 0x00ae2d26 0x0000002d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_SampleMean test:
+-----------------------------------------------
+   N = 20000000,  n = 30,  r =  0
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 2.26e-4
+p-value of test                       :    0.13
+
+Kolmogorov-Smirnov- statistic = D-    : 4.90e-5
+p-value of test                       :    0.91
+
+Anderson-Darling statistic = A2       :    1.77
+p-value of test                       :    0.12
+
+-----------------------------------------------
+CPU time used                    :  00:00:36.17
+
+Generator state:
+ Self-check passed
+ Counter = 0x24717326 0x0000002d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_SampleMean test:
+-----------------------------------------------
+   N = 20000000,  n = 30,  r = 10
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 9.21e-5
+p-value of test                       :    0.71
+
+Kolmogorov-Smirnov- statistic = D-    : 9.07e-5
+p-value of test                       :    0.72
+
+Anderson-Darling statistic = A2       :    0.28
+p-value of test                       :    0.96
+
+-----------------------------------------------
+CPU time used                    :  00:00:39.11
+
+Generator state:
+ Self-check passed
+ Counter = 0x4834b926 0x0000002d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_SampleCorr test:
+-----------------------------------------------
+   N =  1,  n = 2000000000,  r =  0,   k = 1
+
+
+-----------------------------------------------
+Normal statistic                      :    0.24
+p-value of test                       :    0.41
+
+-----------------------------------------------
+CPU time used                    :  00:01:17.76
+
+Generator state:
+ Self-check passed
+ Counter = 0xbf6a4d26 0x0000002d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_SampleCorr test:
+-----------------------------------------------
+   N =  1,  n = 2000000000,  r =  0,   k = 2
+
+
+-----------------------------------------------
+Normal statistic                      :    0.68
+p-value of test                       :    0.25
+
+-----------------------------------------------
+CPU time used                    :  00:01:17.82
+
+Generator state:
+ Self-check passed
+ Counter = 0x369fe126 0x0000002e
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 10000000,   K = 1000000000,   r = 0,   s = 3,   L = 15
+
+   Sequences of n = (K + Q)L =  15150000000 bits
+   Q = 10000000 initialization blocks
+   K = 1000000000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.56
+p-value of test                       :    0.71
+
+-----------------------------------------------
+CPU time used                    :  00:03:05.59
+
+Generator state:
+ Self-check passed
+ Counter = 0x63a0c3a6 0x0000002f
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 10000000,   K = 1000000000,   r = 27,   s = 3,   L = 15
+
+   Sequences of n = (K + Q)L =  15150000000 bits
+   Q = 10000000 initialization blocks
+   K = 1000000000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.94
+p-value of test                       :    0.17
+
+-----------------------------------------------
+CPU time used                    :  00:03:06.12
+
+Generator state:
+ Self-check passed
+ Counter = 0x90a1a626 0x00000030
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r =  0,  k = 256,  Alpha =      0,  Beta =   0.25
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   67
+Chi-square statistic                  :   57.82
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:03:20.03
+
+Generator state:
+ Self-check passed
+ Counter = 0xc1cea626 0x00000031
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r = 20,  k = 256,  Alpha =      0,  Beta =   0.25
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   67
+Chi-square statistic                  :   77.46
+p-value of test                       :    0.18
+
+-----------------------------------------------
+CPU time used                    :  00:03:37.60
+
+Generator state:
+ Self-check passed
+ Counter = 0xf2fba626 0x00000032
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r = 28,  k = 256,  Alpha =      0,  Beta =   0.25
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   67
+Chi-square statistic                  :   55.59
+p-value of test                       :    0.84
+
+-----------------------------------------------
+CPU time used                    :  00:03:37.43
+
+Generator state:
+ Self-check passed
+ Counter = 0x2428a626 0x00000034
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r =  0,  k = 256,  Alpha =      0,  Beta = 0.0625
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   37
+Chi-square statistic                  :   27.33
+p-value of test                       :    0.88
+
+-----------------------------------------------
+CPU time used                    :  00:03:19.89
+
+Generator state:
+ Self-check passed
+ Counter = 0x5555a626 0x00000035
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r = 10,  k = 256,  Alpha =      0,  Beta = 0.0625
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   37
+Chi-square statistic                  :   32.34
+p-value of test                       :    0.69
+
+-----------------------------------------------
+CPU time used                    :  00:03:37.95
+
+Generator state:
+ Self-check passed
+ Counter = 0x8682a626 0x00000036
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r = 26,  k = 256,  Alpha =      0,  Beta = 0.0625
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   37
+Chi-square statistic                  :   56.12
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:03:37.67
+
+Generator state:
+ Self-check passed
+ Counter = 0xb7afa626 0x00000037
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+svaria_SumCollector test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  0,   g = 10
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   29
+Chi-square statistic                  :   38.50
+p-value of test                       :    0.11
+
+-----------------------------------------------
+CPU time used                    :  00:06:46.86
+
+Generator state:
+ Self-check passed
+ Counter = 0x1f99f7b7 0x0000003a
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N = 10,  n = 1000000,  r =  0,    s = 5,    L = 30,    k = 30
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.24
+p-value of test                       :    0.26
+
+Kolmogorov-Smirnov- statistic = D-    :   0.082
+p-value of test                       :    0.83
+
+Anderson-Darling statistic = A2       :    0.89
+p-value of test                       :    0.42
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   40
+Chi-square statistic                  :   33.60
+p-value of test                       :    0.75
+
+-----------------------------------------------
+CPU time used                    :  00:01:53.16
+
+Generator state:
+ Self-check passed
+ Counter = 0x8ae3c9b7 0x0000003a
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N = 10,  n = 1000000,  r = 25,    s = 5,    L = 30,    k = 30
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.056
+p-value of test                       :    0.91
+
+Kolmogorov-Smirnov- statistic = D-    :    0.23
+p-value of test                       :    0.30
+
+Anderson-Darling statistic = A2       :    0.54
+p-value of test                       :    0.70
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   40
+Chi-square statistic                  :   44.71
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:01:53.83
+
+Generator state:
+ Self-check passed
+ Counter = 0xf62d9bb7 0x0000003a
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 5000,  r =  0,    s = 4,    L = 1000,    k = 1000
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    8.04
+p-value of test                       :    0.05
+
+-----------------------------------------------
+CPU time used                    :  00:02:27.77
+
+Generator state:
+ Self-check passed
+ Counter = 0x40af1837 0x0000003b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 5000,  r = 26,    s = 4,    L = 1000,    k = 1000
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    5.58
+p-value of test                       :    0.13
+
+-----------------------------------------------
+CPU time used                    :  00:02:27.97
+
+Generator state:
+ Self-check passed
+ Counter = 0x8b3094b7 0x0000003b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 80,  r = 15,    s = 15,    L = 5000,    k = 5000
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.01
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:02:13.43
+
+Generator state:
+ Self-check passed
+ Counter = 0x932727b7 0x0000003b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 80,  r =  0,    s = 30,    L = 5000,    k = 5000
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.40
+p-value of test                       :    0.30
+
+-----------------------------------------------
+CPU time used                    :  00:01:53.38
+
+Generator state:
+ Self-check passed
+ Counter = 0x97227137 0x0000003b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_Savir2 test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r = 10,    m = 1048576,    t = 30
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.15
+p-value of test                       :    0.58
+
+Kolmogorov-Smirnov- statistic = D-    :    0.24
+p-value of test                       :    0.27
+
+Anderson-Darling statistic = A2       :    0.60
+p-value of test                       :    0.65
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  130
+Chi-square statistic                  :  135.97
+p-value of test                       :    0.34
+
+-----------------------------------------------
+CPU time used                    :  00:02:11.91
+
+Generator state:
+ Self-check passed
+ Counter = 0x49f2cf37 0x0000003c
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_GCD test:
+-----------------------------------------------
+   N = 10,  n = 50000000,  r =  0,   s = 30
+
+
+-----------------------------------------------
+Test results for GCD values:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.13
+p-value of test                       :    0.65
+
+Kolmogorov-Smirnov- statistic = D-    :    0.19
+p-value of test                       :    0.44
+
+Anderson-Darling statistic = A2       :    0.48
+p-value of test                       :    0.77
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 17430
+Chi-square statistic                  :17482.18
+p-value of test                       :    0.39
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:18.13
+
+Generator state:
+ Self-check passed
+ Counter = 0x858d9937 0x0000003c
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r =  0,   s = 5,   L0 =   50,   L1 =   50
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   36
+ChiSquare statistic                   :   34.84
+p-value of test                       :    0.52
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   35
+ChiSquare statistic                   :   33.29
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   25
+ChiSquare statistic                   :   23.54
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   24
+ChiSquare statistic                   :   23.37
+p-value of test                       :    0.50
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   17
+ChiSquare statistic                   :   16.73
+p-value of test                       :    0.47
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:08.20
+
+Generator state:
+ Self-check passed
+ Counter = 0xc1286337 0x0000003c
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 25,   s = 5,   L0 =   50,   L1 =   50
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   36
+ChiSquare statistic                   :   62.33
+p-value of test                       :  4.2e-3
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   35
+ChiSquare statistic                   :   37.61
+p-value of test                       :    0.35
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   25
+ChiSquare statistic                   :   30.06
+p-value of test                       :    0.22
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   24
+ChiSquare statistic                   :   15.68
+p-value of test                       :    0.90
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   17
+ChiSquare statistic                   :   20.90
+p-value of test                       :    0.23
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:08.25
+
+Generator state:
+ Self-check passed
+ Counter = 0xfcc32d37 0x0000003c
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s = 10,   L0 = 1000,   L1 = 1000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  146
+ChiSquare statistic                   :  141.77
+p-value of test                       :    0.58
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  146
+ChiSquare statistic                   :  152.26
+p-value of test                       :    0.34
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  500
+ChiSquare statistic                   :  512.95
+p-value of test                       :    0.33
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  136
+ChiSquare statistic                   :  148.48
+p-value of test                       :    0.22
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   74
+ChiSquare statistic                   :   60.99
+p-value of test                       :    0.86
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:22.86
+
+Generator state:
+ Self-check passed
+ Counter = 0x385df737 0x0000003d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 20,   s = 10,   L0 = 1000,   L1 = 1000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  146
+ChiSquare statistic                   :  163.74
+p-value of test                       :    0.15
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  146
+ChiSquare statistic                   :  167.21
+p-value of test                       :    0.11
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  500
+ChiSquare statistic                   :  490.83
+p-value of test                       :    0.61
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  136
+ChiSquare statistic                   :  134.87
+p-value of test                       :    0.51
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   74
+ChiSquare statistic                   :   66.42
+p-value of test                       :    0.72
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:22.56
+
+Generator state:
+ Self-check passed
+ Counter = 0x73f8c137 0x0000003d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r =  0,   s = 15,   L0 = 10000,   L1 = 10000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  434.09
+p-value of test                       :    0.04
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  380.63
+p-value of test                       :    0.54
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5000
+ChiSquare statistic                   : 4884.85
+p-value of test                       :    0.88
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  378
+ChiSquare statistic                   :  384.87
+p-value of test                       :    0.39
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  200
+ChiSquare statistic                   :  201.47
+p-value of test                       :    0.46
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:06.74
+
+Generator state:
+ Self-check passed
+ Counter = 0x9bba5df7 0x0000003d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r = 15,   s = 15,   L0 = 10000,   L1 = 10000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  346.90
+p-value of test                       :    0.91
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  393.03
+p-value of test                       :    0.36
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5000
+ChiSquare statistic                   : 5002.32
+p-value of test                       :    0.49
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  378
+ChiSquare statistic                   :  348.99
+p-value of test                       :    0.86
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  200
+ChiSquare statistic                   :  193.03
+p-value of test                       :    0.63
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:06.75
+
+Generator state:
+ Self-check passed
+ Counter = 0xc37bfab7 0x0000003d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 400020,  r =  0,    s = 1
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   12
+Chi2 statistic for size of jumps      :   16.19
+p-value of test                       :    0.18
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -1.51
+p-value of test                       :    0.93
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:24.91
+
+Generator state:
+ Self-check passed
+ Counter = 0xc382154b 0x0000003d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 400020,  r = 29,    s = 1
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   12
+Chi2 statistic for size of jumps      :   16.83
+p-value of test                       :    0.16
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -0.26
+p-value of test                       :    0.60
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:24.18
+
+Generator state:
+ Self-check passed
+ Counter = 0xc3882fdf 0x0000003d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N = 10,  n = 134217728,  r =  0,   s =   30,   k =   27
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.18
+p-value of test                       :    0.46
+
+Kolmogorov-Smirnov- statistic = D-    :    0.21
+p-value of test                       :    0.36
+
+Anderson-Darling statistic = A2       :    0.59
+p-value of test                       :    0.65
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.45
+p-value of test                       :    0.33
+
+Sample variance                       :    0.94
+p-value of test                       :    0.49
+
+-----------------------------------------------
+CPU time used                    :  00:01:03.06
+
+Generator state:
+ Self-check passed
+ Counter = 0xc632da91 0x0000003d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N = 10,  n = 134217728,  r = 15,   s =   15,   k =   27
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.31
+p-value of test                       :    0.12
+
+Kolmogorov-Smirnov- statistic = D-    :   0.051
+p-value of test                       :    0.92
+
+Anderson-Darling statistic = A2       :    1.37
+p-value of test                       :    0.21
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -1.35
+p-value of test                       :    0.91
+
+Sample variance                       :    1.09
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:01:04.65
+
+Generator state:
+ Self-check passed
+ Counter = 0xcb882feb 0x0000003d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 100000,  n = 16384,  r =  0,   s =    3,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 6.39e-3
+p-value of test                       :    0.71
+
+Kolmogorov-Smirnov- statistic = D-    :   0.012
+p-value of test                       :    0.30
+
+Anderson-Darling statistic = A2       :    0.52
+p-value of test                       :    0.73
+
+-----------------------------------------------
+CPU time used                    :  00:00:51.54
+
+Generator state:
+ Self-check passed
+ Counter = 0xec1689ab 0x0000003d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 100000,  n = 16384,  r = 27,   s =    3,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 4.58e-3
+p-value of test                       :    0.84
+
+Kolmogorov-Smirnov- statistic = D-    :   0.018
+p-value of test                       :    0.07
+
+Anderson-Darling statistic = A2       :    1.25
+p-value of test                       :    0.25
+
+-----------------------------------------------
+CPU time used                    :  00:00:51.38
+
+Generator state:
+ Self-check passed
+ Counter = 0x0ca4e36b 0x0000003e
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 1000,  r =  0,   s = 3,   L = 10000020
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    6.16
+p-value of test                       :    0.63
+
+-----------------------------------------------
+Global longest run of 1               :   32.00
+p-value of test                       :    0.50
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:54.70
+
+Generator state:
+ Self-check passed
+ Counter = 0xd3539ecb 0x0000003e
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 1000,  r = 27,   s = 3,   L = 10000020
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    4.68
+p-value of test                       :    0.79
+
+-----------------------------------------------
+Global longest run of 1               :   30.00
+p-value of test                       :    0.90
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:54.90
+
+Generator state:
+ Self-check passed
+ Counter = 0x9a025a2b 0x0000003f
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N = 10,  n = 500000000,  r =  0,   s =   10
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.24
+p-value of test                       :    0.28
+
+Kolmogorov-Smirnov- statistic = D-    :    0.21
+p-value of test                       :    0.36
+
+Anderson-Darling statistic = A2       :    0.92
+p-value of test                       :    0.40
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  200
+Chi-square statistic                  :  197.05
+p-value of test                       :    0.55
+
+-----------------------------------------------
+CPU time used                    :  00:04:40.00
+
+Generator state:
+ Self-check passed
+ Counter = 0xc4084c2b 0x00000040
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N = 10,  n = 500000000,  r = 20,   s =   10
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.39
+p-value of test                       :    0.04
+
+Kolmogorov-Smirnov- statistic = D-    :    0.10
+p-value of test                       :    0.76
+
+Anderson-Darling statistic = A2       :    1.81
+p-value of test                       :    0.12
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  200
+Chi-square statistic                  :  171.76
+p-value of test                       :    0.93
+
+-----------------------------------------------
+CPU time used                    :  00:04:37.97
+
+Generator state:
+ Self-check passed
+ Counter = 0xee0e3e2b 0x00000041
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingWeight2 test:
+-----------------------------------------------
+   N = 10,  n = 1000000000,  r =  0,   s = 3,   L = 1000000
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.073
+p-value of test                       :    0.86
+
+Kolmogorov-Smirnov- statistic = D-    :    0.27
+p-value of test                       :    0.19
+
+Anderson-Darling statistic = A2       :    0.75
+p-value of test                       :    0.51
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 10000
+Chi-square statistic                  :10124.72
+p-value of test                       :    0.19
+
+-----------------------------------------------
+CPU time used                    :  00:02:12.06
+
+Generator state:
+ Self-check passed
+ Counter = 0xb4bcf98b 0x00000042
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingWeight2 test:
+-----------------------------------------------
+   N = 10,  n = 1000000000,  r = 27,   s = 3,   L = 1000000
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.41
+p-value of test                       :    0.02
+
+Kolmogorov-Smirnov- statistic = D-    :   0.052
+p-value of test                       :    0.92
+
+Anderson-Darling statistic = A2       :    1.85
+p-value of test                       :    0.11
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 10000
+Chi-square statistic                  : 9787.38
+p-value of test                       :    0.93
+
+-----------------------------------------------
+CPU time used                    :  00:02:13.65
+
+Generator state:
+ Self-check passed
+ Counter = 0x7b6bb4eb 0x00000043
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r = 10,   s = 10,   L = 30
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.14
+p-value of test                       :    0.13
+
+-----------------------------------------------
+CPU time used                    :  00:02:17.58
+
+Generator state:
+ Self-check passed
+ Counter = 0x2e3c12eb 0x00000044
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 10,   s = 10,   L = 300
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.54
+p-value of test                       :    0.29
+
+-----------------------------------------------
+CPU time used                    :  00:02:15.29
+
+Generator state:
+ Self-check passed
+ Counter = 0xe10c70eb 0x00000044
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 10,   s = 10,   L = 1200
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.49
+p-value of test                       :    0.31
+
+-----------------------------------------------
+CPU time used                    :  00:08:58.47
+
+Generator state:
+ Self-check passed
+ Counter = 0xac4de8eb 0x00000047
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N = 10,  n = 30000000,  r =  0,   s = 3,   L = 30,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.033
+p-value of test                       :    0.96
+
+Kolmogorov-Smirnov- statistic = D-    :    0.20
+p-value of test                       :    0.38
+
+Anderson-Darling statistic = A2       :    0.57
+p-value of test                       :    0.67
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 4890
+Chi-square statistic                  : 4982.53
+p-value of test                       :    0.17
+
+-----------------------------------------------
+CPU time used                    :  00:04:06.45
+
+Generator state:
+ Self-check passed
+ Counter = 0x11eea4eb 0x00000049
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N = 10,  n = 30000000,  r = 27,   s = 3,   L = 30,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.068
+p-value of test                       :    0.88
+
+Kolmogorov-Smirnov- statistic = D-    :    0.24
+p-value of test                       :    0.29
+
+Anderson-Darling statistic = A2       :    0.85
+p-value of test                       :    0.44
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 4890
+Chi-square statistic                  : 4993.37
+p-value of test                       :    0.15
+
+-----------------------------------------------
+CPU time used                    :  00:04:09.16
+
+Generator state:
+ Self-check passed
+ Counter = 0x778f60eb 0x0000004a
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 30000000,  r =  0,   s = 4,   L = 300,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 4117
+Chi-square statistic                  : 4128.49
+p-value of test                       :    0.45
+
+-----------------------------------------------
+CPU time used                    :  00:03:03.40
+
+Generator state:
+ Self-check passed
+ Counter = 0x83c7edeb 0x0000004b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 30000000,  r = 26,   s = 4,   L = 300,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 4117
+Chi-square statistic                  : 4092.16
+p-value of test                       :    0.61
+
+-----------------------------------------------
+CPU time used                    :  00:03:05.68
+
+Generator state:
+ Self-check passed
+ Counter = 0x90007aeb 0x0000004c
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s = 5,   L = 1200,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 11825
+Chi-square statistic                  :11916.64
+p-value of test                       :    0.27
+
+-----------------------------------------------
+CPU time used                    :  00:03:18.59
+
+Generator state:
+ Self-check passed
+ Counter = 0xae1aaaeb 0x0000004d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 25,   s = 5,   L = 1200,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 11825
+Chi-square statistic                  :11939.75
+p-value of test                       :    0.23
+
+-----------------------------------------------
+CPU time used                    :  00:03:21.04
+
+Generator state:
+ Self-check passed
+ Counter = 0xcc34daeb 0x0000004e
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 2000000000,  r =  0,   s =    3
+
+
+-----------------------------------------------
+Total number of 1 runs:  2000000000
+
+Number of degrees of freedom          :   54
+Chi2 statistic for number of runs     :   58.82
+p-value of test                       :    0.30
+
+
+-----------------------------------------------
+Total number of bits:  7999967931
+
+Normal statistic for number of bits   :   -0.25
+p-value of test                       :    0.60
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:17.25
+
+Generator state:
+ Self-check passed
+ Counter = 0x6b26cbd4 0x0000004f
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 2000000000,  r = 27,   s =    3
+
+
+-----------------------------------------------
+Total number of 1 runs:  2000000000
+
+Number of degrees of freedom          :   54
+Chi2 statistic for number of runs     :   69.17
+p-value of test                       :    0.08
+
+
+-----------------------------------------------
+Total number of bits:  8000135463
+
+Normal statistic for number of bits   :    1.07
+p-value of test                       :    0.14
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:18.45
+
+Generator state:
+ Self-check passed
+ Counter = 0x0a1996e1 0x00000050
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000030,  r =  0,   s = 3,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.17
+p-value of test                       :    0.51
+
+Kolmogorov-Smirnov- statistic = D-    :    0.30
+p-value of test                       :    0.13
+
+Anderson-Darling statistic = A2       :    0.91
+p-value of test                       :    0.40
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.28
+p-value of test                       :    0.39
+
+Sample variance                       :    1.18
+p-value of test                       :    0.30
+
+-----------------------------------------------
+CPU time used                    :  00:04:03.65
+
+Generator state:
+ Self-check passed
+ Counter = 0xd0c838a1 0x00000050
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000029,  r =  0,   s = 3,   d = 3
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.20
+p-value of test                       :    0.40
+
+Kolmogorov-Smirnov- statistic = D-    :   0.050
+p-value of test                       :    0.92
+
+Anderson-Darling statistic = A2       :    0.48
+p-value of test                       :    0.76
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -0.75
+p-value of test                       :    0.77
+
+Sample variance                       :    1.04
+p-value of test                       :    0.40
+
+-----------------------------------------------
+CPU time used                    :  00:03:45.47
+
+Generator state:
+ Self-check passed
+ Counter = 0x9776da61 0x00000051
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000030,  r = 27,   s = 3,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.20
+p-value of test                       :    0.41
+
+Kolmogorov-Smirnov- statistic = D-    :    0.26
+p-value of test                       :    0.21
+
+Anderson-Darling statistic = A2       :    0.85
+p-value of test                       :    0.45
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.56
+p-value of test                       :    0.29
+
+Sample variance                       :    0.65
+p-value of test                       :    0.76
+
+-----------------------------------------------
+CPU time used                    :  00:04:04.22
+
+Generator state:
+ Self-check passed
+ Counter = 0x5e257c21 0x00000052
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000029,  r = 27,   s = 3,   d = 3
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.14
+p-value of test                       :    0.60
+
+Kolmogorov-Smirnov- statistic = D-    :    0.16
+p-value of test                       :    0.55
+
+Anderson-Darling statistic = A2       :    0.46
+p-value of test                       :    0.78
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.11
+p-value of test                       :    0.46
+
+Sample variance                       :    0.70
+p-value of test                       :    0.71
+
+-----------------------------------------------
+CPU time used                    :  00:03:46.43
+
+Generator state:
+ Self-check passed
+ Counter = 0x24d41de1 0x00000053
+
+
+
+
+
+========= Summary results of BigCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        Speck 64/128
+ Number of statistics:  160
+ Total CPU time:   06:25:23.54
+
+ All tests were passed
+
+
+
