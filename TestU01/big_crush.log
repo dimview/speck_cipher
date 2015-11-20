@@ -1,0 +1,1228 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                 Starting BigCrush
+                 Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+Test smarsa_SerialOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r =  0,   d =  256,   t =  3,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =           16777216
+       Expected number per cell =   59.604645
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =   0.0083558402,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 16711680
+Value of the statistic                : 1.67e+7
+p-value of test                       :    0.17
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:31.06
+
+Generator state:
+ Self-check passed
+ Counter = 0x3b9aca2a 0x00000000
+
+
+
+
+***********************************************************
+Test smarsa_SerialOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r = 22,   d =  256,   t =  3,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =           16777216
+       Expected number per cell =   59.604645
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =   0.0083558402,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 16711680
+Value of the statistic                : 1.67e+7
+p-value of test                       :    0.26
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:34.25
+
+Generator state:
+ Self-check passed
+ Counter = 0x7735942a 0x00000000
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d = 2097152,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1355
+p-value of test                       :    0.59
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334475
+  j =  1                              :        599997290
+  j =  2                              :             1355
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:04:36.64
+
+Generator state:
+ Self-check passed
+ Counter = 0x9af8da2a 0x00000000
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  9,   d = 2097152,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1393
+p-value of test                       :    0.22
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334513
+  j =  1                              :        599997214
+  j =  2                              :             1393
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:04:37.82
+
+Generator state:
+ Self-check passed
+ Counter = 0xbebc202a 0x00000000
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d = 16384,   t =  3,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1410
+p-value of test                       :    0.11
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334530
+  j =  1                              :        599997180
+  j =  2                              :             1410
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:48.15
+
+Generator state:
+ Self-check passed
+ Counter = 0xe27f662a 0x00000000
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r = 16,   d = 16384,   t =  3,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1331
+p-value of test                       :    0.81
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334451
+  j =  1                              :        599997338
+  j =  2                              :             1331
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:46.04
+
+Generator state:
+ Self-check passed
+ Counter = 0x0642ac2a 0x00000001
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d =   64,   t =  7,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1322
+p-value of test                       :    0.87
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334442
+  j =  1                              :        599997356
+  j =  2                              :             1322
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:24.61
+
+Generator state:
+ Self-check passed
+ Counter = 0x2a05f22a 0x00000001
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r = 24,   d =   64,   t =  7,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1370
+p-value of test                       :    0.44
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334490
+  j =  1                              :        599997260
+  j =  2                              :             1370
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:51.26
+
+Generator state:
+ Self-check passed
+ Counter = 0x4dc9382a 0x00000001
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d =    8,   t = 14,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1388
+p-value of test                       :    0.26
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334508
+  j =  1                              :        599997224
+  j =  2                              :             1388
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:06:06.17
+
+Generator state:
+ Self-check passed
+ Counter = 0x718c7e2a 0x00000001
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r = 27,   d =    8,   t = 14,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1324
+p-value of test                       :    0.86
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334444
+  j =  1                              :        599997352
+  j =  2                              :             1324
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:06:39.34
+
+Generator state:
+ Self-check passed
+ Counter = 0x954fc42a 0x00000001
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d =    4,   t = 21,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1305
+p-value of test                       :    0.94
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334425
+  j =  1                              :        599997390
+  j =  2                              :             1305
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:06:21.75
+
+Generator state:
+ Self-check passed
+ Counter = 0xb9130a2a 0x00000001
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r = 28,   d =    4,   t = 21,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1313
+p-value of test                       :    0.92
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334433
+  j =  1                              :        599997374
+  j =  2                              :             1313
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:54.09
+
+Generator state:
+ Self-check passed
+ Counter = 0xdcd6502a 0x00000001
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 100,  n = 10000000,  r =  0,    d = 2147483648,    t = 2,    p = 1
+
+
+      Number of cells = d^t = 4611686018427387904
+      Lambda = Poisson mean =      54.2101
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    5421.01
+Total observed number                 :    5441
+p-value of test                       :    0.39
+
+
+-----------------------------------------------
+CPU time used                    :  00:04:37.07
+
+Generator state:
+ Self-check passed
+ Counter = 0x540be42a 0x00000002
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r =  0,    d = 2097152,    t = 3,    p = 1
+
+
+      Number of cells = d^t = 9223372036854775808
+      Lambda = Poisson mean =     216.8404
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    4336.81
+Total observed number                 :    4251
+p-value of test                       :    0.90
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:12.60
+
+Generator state:
+ Self-check passed
+ Counter = 0x9b92702a 0x00000002
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r = 14,    d = 65536,    t = 4,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7250
+p-value of test                       :    0.79
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:48.11
+
+Generator state:
+ Self-check passed
+ Counter = 0x2a9f882a 0x00000003
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r =  0,    d = 512,    t = 7,    p = 1
+
+
+      Number of cells = d^t = 9223372036854775808
+      Lambda = Poisson mean =     216.8404
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    4336.81
+Total observed number                 :    4302
+p-value of test                       :    0.70
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:15.98
+
+Generator state:
+ Self-check passed
+ Counter = 0xd184242a 0x00000003
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r =  7,    d = 512,    t = 7,    p = 1
+
+
+      Number of cells = d^t = 9223372036854775808
+      Lambda = Poisson mean =     216.8404
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    4336.81
+Total observed number                 :    4317
+p-value of test                       :    0.61
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:15.27
+
+Generator state:
+ Self-check passed
+ Counter = 0x7868c02a 0x00000004
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r = 14,    d = 256,    t = 8,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7263
+p-value of test                       :    0.74
+
+
+-----------------------------------------------
+CPU time used                    :  00:05:35.88
+
+Generator state:
+ Self-check passed
+ Counter = 0x9682f02a 0x00000005
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r = 22,    d = 256,    t = 8,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7419
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+CPU time used                    :  00:06:03.02
+
+Generator state:
+ Self-check passed
+ Counter = 0xb49d202a 0x00000006
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r =  0,    d = 16,    t = 16,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7562
+p-value of test                       :  2.3e-3
+
+
+-----------------------------------------------
+CPU time used                    :  00:08:36.14
+
+Generator state:
+ Self-check passed
+ Counter = 0xf0d1802a 0x00000008
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r = 26,    d = 16,    t = 16,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7143
+p-value of test                       :    0.98
+
+
+-----------------------------------------------
+CPU time used                    :  00:09:12.21
+
+Generator state:
+ Self-check passed
+ Counter = 0x2d05e02a 0x0000000b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 30,  n = 6000000,  r =  0,  t = 3,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    1.39
+p-value of test                       :    0.21
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    0.53
+p-value of test                       :    0.71
+
+Test on the Nm values of W_{n,i}(mNP1):    1.05
+p-value of test                       :    0.33
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     900
+Number of jumps of Y                  :     887
+p-value of test                       :    0.66
+
+Stat. AD (mNP2)                       :    0.64
+p-value of test                       :    0.61
+
+Stat. AD after spacings (mNP2-S)      :    0.80
+p-value of test                       :    0.48
+
+-----------------------------------------------
+CPU time used                    :  00:02:53.78
+
+Generator state:
+ Self-check passed
+ Counter = 0x4d359f2a 0x0000000b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 20,  n = 4000000,  r =  0,  t = 5,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.75
+p-value of test                       :    0.52
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    0.82
+p-value of test                       :    0.47
+
+Test on the Nm values of W_{n,i}(mNP1):    0.65
+p-value of test                       :    0.60
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     600
+Number of jumps of Y                  :     586
+p-value of test                       :    0.71
+
+Stat. AD (mNP2)                       :    0.30
+p-value of test                       :    0.94
+
+Stat. AD after spacings (mNP2-S)      :    0.64
+p-value of test                       :    0.61
+
+-----------------------------------------------
+CPU time used                    :  00:01:59.00
+
+Generator state:
+ Self-check passed
+ Counter = 0x650d232a 0x0000000b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 10,  n = 3000000,  r =  0,  t = 9,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.69
+p-value of test                       :    0.56
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    0.59
+p-value of test                       :    0.66
+
+Test on the Nm values of W_{n,i}(mNP1):    0.34
+p-value of test                       :    0.90
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     300
+Number of jumps of Y                  :     299
+p-value of test                       :    0.51
+
+Stat. AD (mNP2)                       :    0.66
+p-value of test                       :    0.60
+
+Stat. AD after spacings (mNP2-S)      :    1.16
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:03:10.51
+
+Generator state:
+ Self-check passed
+ Counter = 0x752502aa 0x0000000b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N =  5,  n = 2000000,  r =  0,  t = 16,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.86
+p-value of test                       :    0.43
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    0.94
+p-value of test                       :    0.38
+
+Test on the Nm values of W_{n,i}(mNP1):    0.21
+p-value of test                       :    0.99
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     150
+Number of jumps of Y                  :     151
+p-value of test                       :    0.48
+
+Stat. AD (mNP2)                       :    0.49
+p-value of test                       :    0.76
+
+Stat. AD after spacings (mNP2-S)      :    0.80
+p-value of test                       :    0.48
+
+-----------------------------------------------
+CPU time used                    :  00:03:55.93
+
+Generator state:
+ Self-check passed
+ Counter = 0x7eae6aaa 0x0000000b
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 400000000,  r =  0,   d =    8,   k =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    7
+Chi-square statistic                  :    5.14
+p-value of test                       :    0.64
+
+-----------------------------------------------
+CPU time used                    :  00:02:39.31
+
+Generator state:
+ Self-check passed
+ Counter = 0x3d6a8aaa 0x0000000c
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 400000000,  r = 27,   d =    8,   k =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    7
+Chi-square statistic                  :   11.99
+p-value of test                       :    0.10
+
+-----------------------------------------------
+CPU time used                    :  00:02:51.93
+
+Generator state:
+ Self-check passed
+ Counter = 0xfc26aaaa 0x0000000c
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r =  0,   d =   32,   k =   32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   18
+Chi-square statistic                  :   17.29
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:02:34.14
+
+Generator state:
+ Self-check passed
+ Counter = 0xbae2caaa 0x0000000d
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 25,   d =   32,   k =   32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   18
+Chi-square statistic                  :   10.07
+p-value of test                       :    0.93
+
+-----------------------------------------------
+CPU time used                    :  00:02:49.72
+
+Generator state:
+ Self-check passed
+ Counter = 0x799eeaaa 0x0000000e
+
+
+
+
+***********************************************************
+HOST = poezd, Darwin
+
+Speck 64/128:   s = 42
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 200000000,  r =  0,   d =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   54
+Chi-square statistic                  :   68.80
+p-value of test                       :    0.08
+
+--------------------------------

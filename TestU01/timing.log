@@ -1,0 +1,20 @@
+
+-------------  Results of speed test  ---------------
+
+ Host:        poezd, Darwin
+ Generator:   Speck 64/128
+ Method:      GetU01
+ Mean =       0.500007927827901
+ Number of calls:  100000000
+ Total CPU time:   4.62 sec
+
+
+-------------  Results of speed test  ---------------
+
+ Host:        poezd, Darwin
+ Generator:   PCG32
+ Method:      GetU01
+ Mean =       0.499992267215241
+ Number of calls:  100000000
+ Total CPU time:   1.42 sec
+
